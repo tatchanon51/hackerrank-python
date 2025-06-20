@@ -1,5 +1,45 @@
-# HackerRank Python Practice
+# 🐍 HackerRank Python Practice
 
-Compilation of HackerRank Python challenge solutions that I have completed, along with explanations of the coding concepts for each problem.
+Welcome to my Python problem-solving journey!  
+I’ve solved over 100+ problems on HackerRank and earned a Gold Badge 🏅 in Python.
 
-รวมคำตอบโจทย์ HackerRank หมวด Python ที่ผมทำไว้ พร้อมคำอธิบายแนวคิดการเขียนโค้ดแต่ละข้อ
+This repository contains:
+- ✅ My solutions to Python (Basic + Intermediate) challenges
+- 🧠 Clean, commented code with explanation
+- 🚀 Ready for recruiters to view technical skill
+
+---
+
+## ⭐ Highlighted Topics
+- String manipulation
+- List & Dictionary operations
+- Functional programming (lambda/map/filter)
+- OOP in Python
+- Algorithm & recursion
+
+---
+
+## 📁 Structure
+/basic/
+  (.... .py)
+
+/intermediate/
+  (.... .py)
+
+/notes/
+  python_cheatsheet.md
+  useful_links.md
+
+---
+
+Each file includes:
+- 🧾 Problem link
+- 💬 Step-by-step explanation
+- 🧪 Clean code
+
+---
+
+## 📬 Contact
+
+Feel free to connect on [LinkedIn](https://www.linkedin.com/in/tatchanon-wissawakornrungrot-141291159/) or check my HackerRank profile:  
+👉 https://www.hackerrank.com/profile/tatchanon51
