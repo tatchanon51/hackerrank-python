@@ -20,20 +20,21 @@ This repository contains:
 ---
 
 ## 📁 Structure
+```
 /Prepare/
-  Introduction/
-    (... .py)
-  Basic Data Type/
-    (... .py)
-  Sets/
-    (... .py)
-  .../
+├──Introduction/
+├──Basic Data Type/
+├──Sets/
+└──.../
+  
 /Contests/
-  (... .py)
+├──ProjectEuler+
+└──.../
 
 /notes/
-  (...)
-  
+└──(...)
+```
+
 ---
 
 Each file includes:
