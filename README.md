@@ -31,7 +31,7 @@ This repository contains:
 /Contests/
   (... .py)
 
-/Notes/
+/notes/
   (...)
   
 ---
