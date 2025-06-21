@@ -20,16 +20,20 @@ This repository contains:
 ---
 
 ## 📁 Structure
-/basic/
-  (.... .py)
+/Prepare/
+  Introduction/
+    (... .py)
+  Basic Data Type/
+    (... .py)
+  Sets/
+    (... .py)
+  .../
+/Contests/
+  (... .py)
 
-/intermediate/
-  (.... .py)
-
-/notes/
-  python_cheatsheet.md
-  useful_links.md
-
+/Notes/
+  (...)
+  
 ---
 
 Each file includes:
