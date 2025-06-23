@@ -7,4 +7,4 @@ if __name__ == '__main__':
     uniq = list(set(arr))                   #Using set function to remove duplicate score and change set to list
     uniq.sort()                             #Sort the list by value
     n = len(uniq)                           #find the length of the unique score. it resulted in increasing order so we need to get the second bottom score
-    print(uniq[n-2])                        #geting the second bottom score
+    print(uniq[n-2])                        #geting the second score and print
