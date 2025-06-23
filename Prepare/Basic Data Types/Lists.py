@@ -1,34 +1,28 @@
 # Problem Link: https://www.hackerrank.com/challenges/python-lists/problem
-import sys
 
-a = sys.stdin                       #Get all input
+a = int(input())                        #Get the number of command
 lis = []
 
-for t in a:                         #Iterate thru a to separate them by line
-    lis.append(t)
+for t in range(a):                      #Iterate get all commands
+    lis.append(input())
 
-a = lis[0][:len(lis[0])-1]          #
-b = lis[int(a)]
-lis = [s[:len(s)-1] for s in lis]
-lis[0] = a
-lis[int(a)] = b
-final = []
-for com in lis:
-    if 'insert' in com:
-        com = com[7:]
-        sp = com.find(' ')
-        i = int(com[:sp])
-        e = int(com[sp:])
+final = []                              #Setup a list to apply command
+for com in lis:                         #Iterate thru all commands
+    if 'insert' in com:                 #Check if it's insert command or not
+        com = com[7:]                   #reduce com var to only input of insert command
+        sp = com.find(' ')              #find index of space
+        i = int(com[:sp])               #setup index var
+        e = int(com[sp:])               #setup the number to insert var
         final.insert(i,e)
-    if 'print' in com:
+    if 'print' in com:                  #Check if it's print command or not
         print(final)
-    if 'remove' in com:
+    if 'remove' in com:                 #Check if it's remove command or not
         final.remove(int(com[7:]))
-    if 'append' in com:
+    if 'append' in com:                 #Check if it's append command or not
         final.append(int(com[7:]))
-    if 'sort' in com:
+    if 'sort' in com:                   #Check if it's sort command or not
         final.sort()
-    if 'pop' in com:
+    if 'pop' in com:                    #Check if it's pop command or not
         final.pop()
-    if 'reverse' in com:
+    if 'reverse' in com:                #Check if it's reverse command or not
         final.reverse()
